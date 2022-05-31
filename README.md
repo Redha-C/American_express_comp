@@ -44,3 +44,5 @@ Overall, **the bigger the metric M, the better the model performance**.
 We must submit a .csv file with **924 621** predictions of the target varibale meaning the probability of a customer to belong to its label (0 or 1).
 
 # 3) Find how the dataset was splitted into train and test 
+This a time series problem. The data has been splited according to time. The time goes from 2017-03-01 to '2018-03-31 (a year) and the test from 2018-04-01 to 2019-10-31 (a year and a half). 
+The customers present in the train are not present in the test at all. 
